@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>upload</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="sidebar.css"  rel="stylesheet" type="text/css"> <!--this css file helps to navigate between different backend pages-->
+  </head>
+  
+  
+  <body>
+    <!--Backend topbar-->
+      <ul>
+	<li style="word-spacing: 5px; text-align: center"><a href="#about">Crafts & Creations</a></li>
+      </ul>
+    <!--end of the backend topbar code-->
+       
+       <!--this code is for the body-->
+      <div class="row"> 
+	  <div class="col-md-3 col-md-offset-3"><!--this div gives the left side , i.e , the upload form-->
+	  	<form action="upload.php" method="post" enctype="multipart/form-data">
+	 <!--         Enter the SKU code :<br><input type="text" class="form-control" name="sku">
+		  Enter the Product Price :<br><input type="number" class="form-control" name="sp">
+		  Product Name :<br><input type="text" class="form-control" name="pname">
+		  Description :<br><textarea maxlength="400" cols="12" rows="12" placeholder="write a short description about the product" class="form-control" name="
+		  pdes"></textarea>-->
+		  <div class="form-group">
+		    <label for="InputFile">File input</label>
+	           <input type="file" name="fileToUpload" id="fileToUpload">
+	           <p class="help-block">Select image to Upload</p>
+	          </div>
+	            <button type="submit" name="submit" class="btn btn-default">Submit</button>
+	        </form>
+	  </div>
+	  
+	  <div class="col-md-3 col-md-offset-3"> <!--this div gives the right hand side , i.e , the side navigation bar-->
+		  <ul> <!--the sidebar code starts here-->
+			  <li><a href="customerdata.php">Customer Data</a></li>
+			  <li><a class="active" href="upload.html">Products</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  <li><a href="#contact">Contact</a></li>
+		  </ul> <!--the sidebar code ends here--> 
+	  </div>
+      </div> <!--the body code ends here-->
+  
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

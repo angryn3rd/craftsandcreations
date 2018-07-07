@@ -1,0 +1,76 @@
+﻿*{
+    margin: 0;
+}
+
+.content{
+    margin: 0 auto;
+    display: table;
+    padding: 50px 0 0;
+}
+.para{
+    width: 50%;
+    margin: 0 auto;
+    display: table;
+}
+p{
+    color: #2f2f2f;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+body{
+    background: url(images/background.jpg)  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content input{
+    color: #2f2f2f;
+    background:rgba(0,0,0,0.3);
+    padding: 7px 5px;
+    border: none;
+    margin-left: 25px;
+}
+::placeholder{
+    color: #2f2f2f;
+}
+.content textarea{
+    background:rgba(0,0,0,0.3);
+    border: none;
+     margin-left: 25px;
+}
+tr td{
+    color: #000;
+    padding-top: 10px;
+}
+.content select{
+    background:#fff;
+    padding: 5px 3px;
+    border: 1px solid #2f2f2f;
+     margin-left: 25px;
+}
+.content input[type="submit"]{
+    color: #fff;
+    background:rgba(0,0,0,0.6);
+    margin-left: 25px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.content input[name="sex"]{
+    color: #000;
+    font-size: 15px;
+}
+.topbar{
+     background:rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+

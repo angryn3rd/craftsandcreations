@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<title>First Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<script>
+		function display(){
+			alert("Welcome to Webskitters");
+		}
+	</script>
+	
+</head>
+<body>
+<p><b>Registration Form</b></p>
+	<form name="myForm" action="receive.php" onSubmit="return display()" method="post">
+		<div class="content">
+		<table>
+			
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="fname" id="fname" placeholder="Enter a First Name" /></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="lname" placeholder="Enter a Last Name" /></td>
+			</tr>
+			<tr>
+				<td>Mobile:</td>
+				<td><input type="text" name="phone" placeholder="Enter a Mobile number" /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pwd" placeholder="Enter a Password" /></td>
+			</tr>
+			<tr>
+				<td>Confirm Password:</td>
+				<td><input type="password" name="rpwd" placeholder="Enter a Password Again" /></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea name="addrs" rows="5" cols="23"></textarea></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><select name="state">
+					<option value="state">Select State</option>
+					<option value="1">Assam</option>
+					<option value="2">Bihar</option>
+					<option value="3">Odisha</option>
+					<option value="4">Sikkim</option>
+					<option value="5">West Bengal</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td><input type="radio" name="sex" value="male" id="male"/> Male
+					<input type="radio" name="sex" value="female" id="female" /> Female
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" id="submit" value="Submit" /></td>
+			</tr>
+		</table>
+		</div>
+	</form>
+</body>
