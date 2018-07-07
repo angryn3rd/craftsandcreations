@@ -25,7 +25,7 @@
 <?php
     $host="localhost";
     $dbUsername="root";
-    $dbPassword="SsXx*9710";
+    $dbPassword="";
     $dbname="craftsandcreations";
     //cretae connection
     $conn=new mysqli($host,$dbUsername,$dbPassword);

@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $user="root";
-$password="SsXx*9710";
+$password="";
 $db="craftsandcreations";
 $con=mysqli_connect($host,$user,$password);
 mysqli_select_db($con,$db);
