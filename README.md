@@ -9,7 +9,7 @@ A simple e-commerce platform to help sell unique handmade jewelries
 
 4.Change the password according to your database in the dbconnect.php ,connect.php and contactus.php
 
-5. start the web server
+5.start the web server
 
 all set! you are ready to go........................................................
 
