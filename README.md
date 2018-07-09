@@ -14,5 +14,7 @@ A simple e-commerce platform to help sell unique handmade jewelries
 all set! you are ready to go........................................................
 
 Developers: Angshuman Sonowal , Satyajeet Hazarika and Abhijit Nath
-	    Batch : 2015-19
-	    Jorhat Engineering College
+
+Batch : 2015-19
+
+Jorhat Engineering College
